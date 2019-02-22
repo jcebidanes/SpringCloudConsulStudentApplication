@@ -26,7 +26,7 @@ public class StudentServiceDelegate {
                 schoolname
                 ).getBody();
         
-        System.out.println("Response Received as " + response + " -  " + new Date());
+        System.out.println("Response Received as " + response + " - " + new Date());
  
         return "School Name -  " + schoolname + " :::  Student Details " + response + " -  " + new Date();
 	}
